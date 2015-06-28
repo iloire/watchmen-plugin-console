@@ -1,0 +1,15 @@
+{
+  "name": "watchmen-plugin-console",
+  "version": "0.0.1",
+  "description": "Console plugin for watchmen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iloire/watchmen-plugin-console.git"
+  },
+  "author": "Ivan Loire",
+  "license": "MIT"
+}
