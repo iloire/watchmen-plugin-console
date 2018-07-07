@@ -63,7 +63,7 @@ var eventHandlers = {
    */
 
   onServiceBack: function (service, lastOutage) {
-    var duration = moment.duration(+new Date() - lastOutage.timestamp, 'seconds');
+    var duration = moment.duration(+new Date() - lastOutage.timestamp);
     console.log(service.name.white + ' is back'.green + '. Down for '.gray + duration.humanize().white);
   },
 
